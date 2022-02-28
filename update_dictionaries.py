@@ -18,16 +18,16 @@ DIR = Path(__file__).resolve().parent
 
 
 DICTIONARIES = (
-    "https://sourceforge.net/projects/wordlist/files/speller/2019.10.06/"
-    "hunspell-en_US-2019.10.06.zip",
-    "https://sourceforge.net/projects/wordlist/files/speller/2019.10.06/"
-    "hunspell-en_CA-2019.10.06.zip",
-    "https://sourceforge.net/projects/wordlist/files/speller/2019.10.06/"
-    "hunspell-en_GB-ise-2019.10.06.zip",
-    "https://sourceforge.net/projects/wordlist/files/speller/2019.10.06/"
-    "hunspell-en_GB-ize-2019.10.06.zip",
-    "https://sourceforge.net/projects/wordlist/files/speller/2019.10.06/"
-    "hunspell-en_AU-2019.10.06.zip",
+    "https://sourceforge.net/projects/wordlist/files/speller/2020.12.07/"
+    "hunspell-en_US-2020.12.07.zip",
+    "https://sourceforge.net/projects/wordlist/files/speller/2020.12.07/"
+    "hunspell-en_CA-2020.12.07.zip",
+    "https://sourceforge.net/projects/wordlist/files/speller/2020.12.07/"
+    "hunspell-en_GB-ise-2020.12.07.zip",
+    "https://sourceforge.net/projects/wordlist/files/speller/2020.12.07/"
+    "hunspell-en_GB-ize-2020.12.07.zip",
+    "https://sourceforge.net/projects/wordlist/files/speller/2020.12.07/"
+    "hunspell-en_AU-2020.12.07.zip",
     "https://github.com/b00f/lilak/releases/latest/download/fa-IR.zip",
     # NOTE: need to remove IGNORE from uk_UA.aff
     "https://github.com/brown-uk/dict_uk/releases/latest/download/"

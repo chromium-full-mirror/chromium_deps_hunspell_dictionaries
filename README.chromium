@@ -233,3 +233,6 @@ dictionaries are located at: https://github.com/msmiljan/srdict_chromium
 
 On Jan 8, 2020, we updated the en and fa dictionaries to the latest upstream
 versions. Because dic files changed, we incremented the major version to 9-0.
+
+On Mar 1, 2022, we updated the en dictionaries to the latest upstream versions.
+Because dic files changed, we incremented the major version to 10-0.
