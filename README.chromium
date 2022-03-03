@@ -249,3 +249,6 @@ versions. Because dic files changed, we incremented the major version to 9-0.
 
 On Mar 1, 2022, we updated the en dictionaries to the latest upstream versions.
 Because dic files changed, we incremented the major version to 10-0.
+
+On Mar 2, 2022, we added the Ukrainian spelling of "Kyiv", the capital city of
+Ukraine, to en dictionaries.
