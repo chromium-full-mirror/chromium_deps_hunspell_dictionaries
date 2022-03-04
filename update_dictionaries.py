@@ -30,10 +30,8 @@ DICTIONARIES = (
     "https://sourceforge.net/projects/wordlist/files/speller/2020.12.07/"
     "hunspell-en_AU-2020.12.07.zip",
     "https://github.com/b00f/lilak/releases/latest/download/fa-IR.zip",
-    # NOTE: need to remove IGNORE from uk_UA.aff
-    # TODO: This archive no longer exists.
-    # "https://github.com/brown-uk/dict_uk/releases/latest/download/"
-    # "hunspell-uk_UA.zip",
+    "https://github.com/brown-uk/dict_uk/releases/v5.6.0/download/"
+    "hunspell-uk_UA_5.6.0.zip",
 )
 
 
@@ -63,6 +61,12 @@ def main(argv):
     for name in glob.glob("fa-IR/*fa-IR.*"):
         os.rename(name, os.path.basename(name.replace("-", "_")))
     shutil.rmtree("fa-IR")
+
+    # Need to remove IGNORE as our tools don't support it.
+    file = DIR / 'uk_UA.aff'
+    lines = file.read_bytes().splitlines(keepends=True)
+    lines.remove('IGNORE ́\n'.encode('utf-8'))
+    file.write_bytes(b''.join(lines))
 
     return 0
 
