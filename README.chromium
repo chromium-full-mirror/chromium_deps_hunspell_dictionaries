@@ -30,7 +30,9 @@ URL: http://bgoffice.sourceforge.net/
      https://github.com/msmiljan/srdict_chromium
 
 License: MPL 1.1/GPL 2.0/LGPL 2.1/LPGL 3.0
+License File: LICENSE
 Security Critical: no
+Shipped: yes
 Version: unknown
 
 This folder contains the following:
