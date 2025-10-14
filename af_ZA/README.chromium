@@ -1,6 +1,7 @@
 Name: An Afrikaans spellchecking dictionary
 URL: http://zaf.svn.sourceforge.net/viewvc/zaf/trunk/dict/
 Version: 1.0
+Update Mechanism: Manual (https://crbug.com/422924034)
 License File: README-af-ZA.txt
 Security Critical: no
 Shipped: yes

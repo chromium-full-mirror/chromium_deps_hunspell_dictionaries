@@ -35,6 +35,7 @@ Security Critical: no
 Shipped: yes
 Version: N/A
 Revision: DEPS
+Update Mechanism: Manual (https://crbug.com/422923854)
 
 This folder contains the following:
 

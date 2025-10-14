@@ -1,6 +1,7 @@
 Name: A Faroese spellchecking dictionary
 URL: http://www.stava.fo/
 Version: 1.0
+Update Mechanism: Manual (https://crbug.com/422924606)
 License File: LICENSE_en_US.txt
 Security Critical: no
 Shipped: yes
