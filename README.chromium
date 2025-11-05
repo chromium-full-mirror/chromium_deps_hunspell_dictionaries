@@ -28,8 +28,9 @@ URL: http://bgoffice.sourceforge.net/
      http://techiaith.cymru/hunspell/cy_GB/
      https://github.com/hyspell/HySpell_3.0.1/tree/master/Dictionaries/Dictr
      https://github.com/msmiljan/srdict_chromium
+     https://gitlab.com/trasno/hunspell-gl
 
-License: MPL 1.1/GPL 2.0/LGPL 2.1/LPGL 3.0
+License: MPL 1.1/GPL 2.0/GPL 3.0/LGPL 2.1/LPGL 3.0
 License File: LICENSE
 Security Critical: no
 Shipped: yes
@@ -126,6 +127,8 @@ fo_FO:  No changes
 
 fr_FR:  Added words to 4.8 (modern) downloaded from
         http://www.dicollecte.org/download.php?prj=fr
+
+gl:     No changes
 
 he_IL:  Added words
 
@@ -256,3 +259,5 @@ Because dic files changed, we incremented the major version to 10-0.
 
 On Mar 2, 2022, we added the Ukrainian spelling of "Kyiv", the capital city of
 Ukraine, to en dictionaries.
+
+On Nov 4, 2025, we added a Galician language dictionary (gl).
