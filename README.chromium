@@ -30,7 +30,7 @@ URL: http://bgoffice.sourceforge.net/
      https://github.com/msmiljan/srdict_chromium
      https://gitlab.com/trasno/hunspell-gl
 
-License: MPL 1.1/GPL 2.0/GPL 3.0/LGPL 2.1/LPGL 3.0
+License: Apache-2.0, GPL-3.0, LGPL-2.1, LGPL-3.0, MIT, MPL-1.1
 License File: LICENSE
 Security Critical: no
 Shipped: yes
@@ -63,6 +63,12 @@ $ autoninja -C out/Default convert_dict
 $ cd third_party/hunspell_dictionaries
 $ ../../out/Default/convert_dict en_US
 $ mv en_US.bdic en-US-<major>-<minor>.bdic
+```
+
+To regenerate all the .bdic files in place, run:
+
+```
+$ third_party/hunspell_dictionaries/convert_dictionaries.py out/Default/convert_dict
 ```
 
 The README_<language>_<region>.txt files contain information about the
@@ -263,3 +269,10 @@ Ukraine, to en dictionaries.
 On Nov 4, 2025, we added a Galician language dictionary (gl).
 
 On July 22, 2026, we added "Googlebook" to en dictionaries.
+
+On Oct 8, 2026, we reran convert_dict on all dictionaries after fixing it to
+drop the morphological descriptions of affix rules and to accept tabs between
+their fields. The de-DE, fr-FR, gl, hu-HU, hy, nl-NL, pt-BR, ro-RO and ta-IN
+dictionaries changed, so we incremented their minor versions. We also renamed
+nb-NO.dic_delta to nb_NO.dic_delta and converted it to UTF-8, so that its words
+are added to the nb-NO dictionary, whose minor version we incremented too.
